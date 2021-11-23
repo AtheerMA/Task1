@@ -1,0 +1,64 @@
+
+    body {
+      height: 200px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: white;
+      }
+      .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      }
+      .container {
+      margin-top: 5em;
+      height: 30px;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "box box box box";
+      }
+      .box {
+      display: flex;
+      height: 100px;
+      width: 100px;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+      justify-content: center;
+      }
+      #box-1 {
+          background: rgb(199, 218, 187);
+      }
+      #box-2 {
+          background: rgb(122, 199, 189);
+      }
+      #box-3 {
+          background: rgb(42, 164, 212);
+      }
+      #box-4 {
+          background: rgb(128, 138, 194);
+      }
+      #box-5 {
+        background: rgb(218, 89, 89);
+      }
+      #box-6 {
+        background: rgb(238, 134, 215);
+      }
+      #box-7 {
+        background: lightsalmon;
+        
+      }
+      #box-8 {
+        background: darkorchid;
+    
+      }
+    
+      .clickStyle{
+        color:red;
+      }
+      
+  
+  
+  
